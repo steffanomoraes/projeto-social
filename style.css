@@ -18,18 +18,25 @@ main {
 }
 
 section#redes-sociais {
-    margin-left: 90%;
+    position: absolute;
 }
 
-section#telefone {
+img.iphone, iframe {
+    position: absolute;
+    transform: translate(-50%, -50%);
 
-}
-
-img {
-    padding: auto;
+    left: 50%;
+    top: 50%;
 }
 
 iframe {
-    width: 400px;
-    height: 706px;
+    width: 265px;
+    height: 470px;
+}
+
+.menu {
+    display: inline;
+
+    width: 50px;
+    height: 50px;
 }
