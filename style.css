@@ -15,10 +15,19 @@ main {
     height: 100vh;
     position: relative;
     background-image: url(imagens/fundo-madeira.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 20px;
 }
 
 section#redes-sociais {
     position: absolute;
+    left: 93%;
+    top: 1%;
 }
 
 img.iphone, iframe {
