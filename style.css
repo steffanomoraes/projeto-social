@@ -30,7 +30,7 @@ section#redes-sociais {
     top: 1%;
 }
 
-img.iphone, iframe {
+img.iphone {
     position: absolute;
     transform: translate(-50%, -50%);
 
@@ -41,6 +41,12 @@ img.iphone, iframe {
 iframe {
     width: 265px;
     height: 470px;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    left: 50%;
+    top: 50.4%;
 }
 
 .menu {
